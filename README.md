@@ -8,7 +8,7 @@ We propose a topology-guided hierarchical multitask learning network (TGH-Net) f
 
 ![image-20260521151629946](assets/KAD-Net.png)
 
-<p align="center">Fig 2. Framework of TGH-Net</p>
+<p align="center">Fig 2. Framework of AD-Net</p>
 
 ## Preparing the Dataset
 
