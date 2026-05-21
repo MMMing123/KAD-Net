@@ -2,6 +2,14 @@
 
 This repository contains the official implementation of the paper
 
+## Introduction
+
+We propose a topology-guided hierarchical multitask learning network (TGH-Net) for robust 3D hand pose estimation from depth images. Hand joint coordinates are predicted through decoupled UV and depth branches, guided by finger topological constraints and fused attention maps. The FTC module aggregates motion representations from finger joints to enhance distal-joint localization, while hierarchical depth subtasks reduce negative feature transfer. This end-to-end framework exploits both spatial features and hand kinematics, making the network more accurate and robust under occlusion. 
+
+![image-20260521151629946](assets/KAD-Net.png)
+
+<p align="center">Fig 2. Framework of TGH-Net</p>
+
 ## Preparing the Dataset
 
 1. **Download the ICVL dataset** from the [ICVL Hand Posture Dataset](http://www.iis.ee.ic.ac.uk/~dtang/hand.html).
