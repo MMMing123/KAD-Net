@@ -14,7 +14,7 @@ We propose a Kinematics-Aware Decouple learning network (KAD-Net) for robust 3D 
 
 1. **Download the ICVL dataset** from the [ICVL Hand Posture Dataset](http://www.iis.ee.ic.ac.uk/~dtang/hand.html).
 
-2. **Download the test set**: Download the file `test.pickle` from [here](http://www.iis.ee.ic.ac.uk/~dtang/hand.html).
+2. **Download the test set**: Download the file `test.pickle` from [here](https://drive.google.com/file/d/1cdTTDsJREZQC9ggVgF_2D7ZmFVVc2Hyk/view).
 
 3. **Prepare the training set**: extract the ICVL training set. **Run the preprocessing script** `python prepareICVL_train.py <ICVLpath>` to generate train.pickle. Here, `<ICVLpath>` represents the root path of the extracted ICVL training set (the folder containing `Depth/` and `labels.txt`).
 
